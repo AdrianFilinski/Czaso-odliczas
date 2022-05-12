@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+.counter-app {
+    position: relative;
+}
+
+.app-body {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 800px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+}
+
+.image-section {
+    position: relative;
+    height: 400px;
+    background-image: url('default.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.settings-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 20px 30px;
+    font-size: 32px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+}
