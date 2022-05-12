@@ -66,3 +66,30 @@ h3 {
     font-size: 24px;
     text-align: center;
 }
+
+.time-cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 0;
+    width: 18%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.number {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.card-title {
+    text-align: center;
+}
