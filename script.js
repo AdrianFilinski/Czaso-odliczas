@@ -13,3 +13,8 @@ const secondsCount = document.querySelector('.seconds-count')
 const saveBtn = document.querySelector('.save')
 const eventBtn = document.querySelector('.event')
 let usersTime;
+
+
+settingsBtn.addEventListener('click', () => {
+    settings.classList.toggle('active')
+})
