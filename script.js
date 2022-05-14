@@ -14,10 +14,16 @@ const saveBtn = document.querySelector('.save')
 const eventSpan = document.querySelector('.event')
 let usersTime;
 
+//https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_960_720.jpg
 const appUpdate = () => {
+    eventSpan.textContent = eventName.value;
+    imageSection.style.backgroundImage = `url('${eventImg.value}')`
+    usersTime = new Date(`${eventMonth.value} ${eventDay.value} ${eventYear.value}`)
 
 }
 
 settingsBtn.addEventListener('click', () => {
     settings.classList.toggle('active')
 })
+
+saveBtn.addEventListener('click', appUpdate)
