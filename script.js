@@ -11,9 +11,12 @@ const hoursCount = document.querySelector('.hours-count')
 const minutesCount = document.querySelector('.minutes-count')
 const secondsCount = document.querySelector('.seconds-count')
 const saveBtn = document.querySelector('.save')
-const eventBtn = document.querySelector('.event')
+const eventSpan = document.querySelector('.event')
 let usersTime;
 
+const appUpdate = () => {
+
+}
 
 settingsBtn.addEventListener('click', () => {
     settings.classList.toggle('active')
